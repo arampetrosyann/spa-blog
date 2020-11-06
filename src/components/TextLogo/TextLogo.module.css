@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  cursor: pointer;
+}
+
+.text {
+  margin: auto 0;
+  text-transform: uppercase;
+  text-shadow: 4px 4px 8px rgb(3, 3, 3);
+}

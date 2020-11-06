@@ -1,0 +1,58 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px 1px rgba(5, 6, 7, 0.8);
+  background-color: rgb(240, 240, 240);
+  overflow: hidden;
+}
+
+.head {
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.uh {
+  margin: 2px 10px;
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.pt {
+  margin: 2px 10px;
+  font-size: 20px;
+  word-break: break-all;
+}
+
+.pc {
+  flex: 1 1 auto;
+  padding: 10px;
+  font-size: 17px;
+  font-family: "Courier New", Courier, monospace;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.pb {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .post {
+    width: 90%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+}

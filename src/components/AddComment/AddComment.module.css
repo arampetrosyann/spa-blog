@@ -1,0 +1,29 @@
+.com {
+  width: 695px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+@media (max-width: 575.99px) {
+  .com {
+    width: 80%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) {
+  .com {
+    width: 74%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.99px) {
+  .com {
+    width: 76%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .com {
+    width: 60%;
+  }
+}

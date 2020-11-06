@@ -1,0 +1,8 @@
+.footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: space-evenly;
+  height: 65px;
+  align-items: center;
+  z-index: 100;
+}
