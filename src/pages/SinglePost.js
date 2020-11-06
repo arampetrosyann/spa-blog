@@ -129,8 +129,8 @@ export default function SinglePost() {
               </IconButton>
             </aside>
           ) : null}
-          <h3 className="pt">{curPost.title}</h3>
-          <span className="uh">posted by: {curPost.createdBy}</span>
+          <h3 className="single-title">{curPost.title}</h3>
+          <span className="posted-by">posted by: {curPost.createdBy}</span>
         </div>
 
         {edit ? (
@@ -138,16 +138,16 @@ export default function SinglePost() {
             rows={24}
             value={text}
             onChange={handleTextInput}
-            className="areapc"
+            className="content-area"
           />
         ) : (
-          <pre className="pc">{text}</pre>
+          <pre className="content">{text}</pre>
         )}
       </div>
 
       <AddComment forID={params.id} onCreate={onCreate} />
 
-      <div className="comms">
+      <div className="comments">
         {postComments.map((comment) => {
           return (
             <Comment
