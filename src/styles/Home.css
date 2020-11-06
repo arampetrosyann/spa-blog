@@ -1,0 +1,23 @@
+.home-title {
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 20px rgb(20, 20, 20);
+}
+
+.home-title:hover {
+  text-shadow: 2px 2px 20px rgb(46, 105, 71);
+}
+
+.home-post {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.post-err {
+  font-size: 40px;
+  font-weight: bold;
+  opacity: 0.5;
+}

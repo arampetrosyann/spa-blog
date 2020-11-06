@@ -1,0 +1,36 @@
+.sign {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: rgb(245, 246, 247);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.sign-up {
+  margin: 0 5px;
+  color: rgb(26, 70, 189);
+  cursor: pointer;
+}
+
+.sign-up:hover {
+  text-decoration: underline;
+}
+
+.form-img-cont {
+  text-align: center;
+}
+
+@media (max-width: 575.99px) {
+  .sign {
+    width: 90%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .sign {
+    width: 450px;
+  }
+}

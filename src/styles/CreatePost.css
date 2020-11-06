@@ -1,0 +1,25 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+  overflow: auto;
+}
+
+.post-title {
+  margin: 2px 30px;
+  border-bottom: 2px solid rgba(100, 100, 100, 0.9);
+  font-size: 27px;
+  text-align: center;
+}
+
+.btn-link {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .post {
+    width: 450px;
+  }
+}
